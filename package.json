@@ -1,0 +1,19 @@
+{
+  "name": "plotly",
+  "version": "1.0.0",
+  "description": "plotly graph of the univers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mscott99/Galaxy-Graph.git"
+  },
+  "author": "Matthew Scott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mscott99/Galaxy-Graph/issues"
+  },
+  "homepage": "https://github.com/mscott99/Galaxy-Graph#readme"
+}
