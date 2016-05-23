@@ -5,12 +5,9 @@
 // Learn about API authentication here: https://plot.ly/nodejs/getting-started
 // Find your api_key here: https://plot.ly/settings/api
 var plotly = require('../dist/plotly.js');
-var data = require('./database.js');
+var data = require('./data.js');
 obj = data();
-for(var x = 0; x< 200; x++){
-console.log(Math.sqrt(obj.x[x]^2+obj.y[x]^2+obj.z[x]^2));
 
-}
 //var json = require('comment-json');
 //var reader = require('../reader.js');
 
@@ -29,12 +26,9 @@ var trace1 = {
   z: obj.z,
   mode: "markers",
   marker: {
-    size: 1,
-    line: {
-      color: "rgba(217, 217, 217, 0.14)",
-      width: 0.1
-    },
-    opacity: 0.8
+    size: 0.4,
+    color:"rbg(210,6,3)",
+    opacity: 0.2
   },
   type: "scatter3d"
 };
