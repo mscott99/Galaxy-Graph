@@ -1,5 +1,5 @@
 {
-  "name": "plotly",
+  "name": "plotly-graph",
   "version": "1.0.0",
   "description": "plotly graph of the univers",
   "main": "index.js",
@@ -15,5 +15,19 @@
   "bugs": {
     "url": "https://github.com/mscott99/Galaxy-Graph/issues"
   },
-  "homepage": "https://github.com/mscott99/Galaxy-Graph#readme"
+  "homepage": "https://github.com/mscott99/Galaxy-Graph#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "grunt": "^1.0.0",
+    "install": "^0.8.1",
+    "json-loader": "^0.5.4",
+    "npm": "^3.9.2",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    
+  }
 }
