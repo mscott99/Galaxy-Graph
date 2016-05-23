@@ -1,19 +1,19 @@
 var path = require('path');
 
 module.exports = {
+  devtool:"cheap-source-map",
   entry:'./app/entry.js',
-debug:"true",
+  debug:"true",
   output:{
     filename:'./build/bundle.js',
     path: __dirname
   },
-  node:{
-fs:"empty"
-  },
   resolve:{
     extensions:['','.css','.js','json']
   },
-
+  node:{
+   fs:"empty"
+  },
 
   module:{
     loaders: [

@@ -5,19 +5,23 @@
 // Learn about API authentication here: https://plot.ly/nodejs/getting-started
 // Find your api_key here: https://plot.ly/settings/api
 var plotly = require('../dist/plotly.js');
+var data = require('./database.js');
+obj = data();
+for(var x = 0; x< 200; x++){
+console.log(Math.sqrt(obj.x[x]^2+obj.y[x]^2+obj.z[x]^2));
 
-
+}
 //var json = require('comment-json');
 //var reader = require('../reader.js');
 
 //var obj = reader();
 //test
-var obj = {
+/*var obj = {
   x:[1,2,3],
   y:[2,2,2],
   z:[1,1,1]
-
-}
+  }
+  */
 console.log(obj);
 var trace1 = {
   x: obj.x,
@@ -25,10 +29,10 @@ var trace1 = {
   z: obj.z,
   mode: "markers",
   marker: {
-    size: 12,
+    size: 1,
     line: {
       color: "rgba(217, 217, 217, 0.14)",
-      width: 0.5
+      width: 0.1
     },
     opacity: 0.8
   },
