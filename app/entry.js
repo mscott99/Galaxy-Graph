@@ -26,7 +26,7 @@ x: obj.x,
    z: obj.z,
    mode: "markers",
    marker: {
-size: 0.4,
+size: 0.8,
       color:"rbg(210,6,3)",
       opacity: 0.2
    },
